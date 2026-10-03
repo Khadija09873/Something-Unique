@@ -20,7 +20,7 @@ body {
   left: 50%;
   height: 50vh;
   width: 2px;
-  background-color: black;
+  background-color: rgb(213, 209, 209);
   z-index: -1;
   opacity: 0.5;
   visibility: hidden;
