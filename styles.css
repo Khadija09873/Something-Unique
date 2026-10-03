@@ -2,59 +2,53 @@ html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-  padding: 0px;
+  padding: 0;
 }
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color:
-   white;
-  background-repeat: no-repeat;
+  background-color: white;
   color: black;
+  overflow: hidden;
 }
 
-.vline
-{
-    position:fixed;
-    top: 0;
-    left: 50%;
-    height: 50vh;
-    width: 2px;
-    background-color: black;
-    z-index: -1;
-    opacity: 0.5;
-    visibility: hidden;
-}
-.gsapWrapper {
-
+.vline {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  height: 50vh;
+  width: 2px;
+  background-color: black;
+  z-index: -1;
+  opacity: 0.5;
   visibility: hidden;
+}
 
-  #wBody {
-    width: min(65wv, 65vh); 
-    }
+.gsapWrapper {
+  visibility: hidden;
+}
 
+#wBody {
+  position: relative;
+  aspect-ratio: 1 / 1;
+  width: min(65vw, 65vh);
+}
 
-    #watch {
-      
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      width: 100%;
-      height: 100%;
-      aspect-ratio: 1/1;
-      overflow: visible;
+#watch {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
 
-      svg {
-        overflow: visible;
-        width: 100%;
-        height: 100%;
-      }
-      
-    }
-
-  }
-
+#watch svg,
+#watchSVG {
+  overflow: visible;
+  width: 100%;
+  height: 100%;
 }
