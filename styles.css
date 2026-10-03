@@ -32,8 +32,8 @@ body {
 
 #wBody {
   position: relative;
-  aspect-ratio: 1 / 1;
-  width: 45vmin;
+  width: 95vmin;
+  height: 95vmin;
 }
 
 #watch {
