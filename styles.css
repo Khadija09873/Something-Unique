@@ -52,3 +52,16 @@ body {
   width: 100%;
   height: 100%;
 }
+body {
+  background-color: black;
+}
+
+/* turn every black fill white (spider, hands, numerals, cogs) */
+[fill="#000000"] {
+  fill: #ffffff;
+}
+
+/* the faint center line */
+.vline {
+  background-color: white;
+}
